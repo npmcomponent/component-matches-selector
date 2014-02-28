@@ -1,21 +1,13 @@
 {
   "name": "component-matches-selector",
-  "version": "0.1.2",
   "description": "Check if an element matches a given selector",
+  "version": "0.1.2",
   "keywords": [
     "match",
     "element",
     "selector"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/component/matches-selector.git"
-  },
-  "browser": {
-    "query": "component-query"
-  },
   "dependencies": {
-    "component-query": "^0.0.3"
-  },
-  "license": "MIT"
+    "component-query": "git://github.com/npmcomponent/component-query.git"
+  }
 }
